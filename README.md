@@ -41,3 +41,5 @@ e.g.
 ./db_bench --benchmarks=fillseq --fs_uri=torfs:xnvme:/dev/ng0n1?be=io_uring_cmd
 ```
 
+## Note
+Before version 9.3.1, casting enum WriteLifeTimeHint to uint64 is required to match the parameter type of ***fcntl()***
